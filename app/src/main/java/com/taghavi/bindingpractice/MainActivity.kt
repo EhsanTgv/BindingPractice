@@ -14,9 +14,5 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         binding.user = User("Ehsan","Taghavi")
-
-        binding.button.setOnClickListener {
-            Toast.makeText(this, "Boom", Toast.LENGTH_SHORT).show()
-        }
     }
 }
